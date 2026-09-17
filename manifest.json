@@ -1,0 +1,25 @@
+{
+  "name": "pose-atlas-skill",
+  "version": "0.5.0",
+  "language": "zh-CN",
+  "scope": "single-person portrait pose direction",
+  "pose_families": 480,
+  "variants": 1440,
+  "contact_sheet_pages": 30,
+  "canonical_source": "data/poses.json",
+  "bundled_contact_sheet_images": 30,
+  "contact_sheet_format": "webp+png",
+  "features": [
+    "single routed pose skill",
+    "explicit canonical and variant ID lookup",
+    "theme-driven original pose recommendations",
+    "body-profile-aware adaptation"
+  ],
+  "skills": [
+    {
+      "id": "pose-atlas",
+      "entry": "SKILL.md",
+      "purpose": "按明确 Pose ID 查询结构，或按主题原创单人姿势"
+    }
+  ]
+}

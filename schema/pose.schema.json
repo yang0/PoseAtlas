@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pose-atlas-pose-v2",
+  "title": "Pose Atlas Pose Record v2",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "name_zh",
+    "summary",
+    "support",
+    "legs",
+    "weight",
+    "pelvis",
+    "torso",
+    "shoulders",
+    "arm_default",
+    "hand_default",
+    "head_default",
+    "gaze_default",
+    "shape",
+    "camera",
+    "difficulty",
+    "intensity",
+    "style_tags",
+    "variants",
+    "image"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(ST|SI|KN|SQ|FL|LE|WK|MV)-[0-9]{3}$"
+    },
+    "category": {
+      "enum": [
+        "ST",
+        "SI",
+        "KN",
+        "SQ",
+        "FL",
+        "LE",
+        "WK",
+        "MV"
+      ]
+    },
+    "name_zh": {
+      "type": "string",
+      "minLength": 2
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 4
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "intensity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "shape": {
+      "type": "object",
+      "required": [
+        "primary"
+      ],
+      "properties": {
+        "primary": {
+          "enum": [
+            "S_CURVE",
+            "C_CURVE",
+            "DIAGONAL",
+            "TRIANGLE",
+            "ARCH",
+            "TWIST",
+            "OPEN",
+            "COMPACT",
+            "VERTICAL",
+            "FORWARD",
+            "HORIZONTAL",
+            "ASYMMETRIC"
+          ]
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object"
+    },
+    "style_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "variants": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "image": {
+      "type": "string"
+    },
+    "canonical": {
+      "type": "boolean"
+    }
+  }
+}

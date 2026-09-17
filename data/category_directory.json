@@ -1,0 +1,131 @@
+{
+  "version": "0.3.0",
+  "items": [
+    {
+      "category": "ST",
+      "category_zh": "站姿",
+      "category_en": "Standing",
+      "pose_count": 112,
+      "page_count": 7,
+      "page_ids": [
+        "PAGE-01",
+        "PAGE-02",
+        "PAGE-03",
+        "PAGE-04",
+        "PAGE-05",
+        "PAGE-06",
+        "PAGE-07"
+      ],
+      "first_pose_id": "ST-001",
+      "last_pose_id": "ST-112",
+      "cover_image_path": "assets/contact-sheets/ST-01.webp"
+    },
+    {
+      "category": "SI",
+      "category_zh": "坐姿",
+      "category_en": "Sitting",
+      "pose_count": 64,
+      "page_count": 4,
+      "page_ids": [
+        "PAGE-08",
+        "PAGE-09",
+        "PAGE-10",
+        "PAGE-11"
+      ],
+      "first_pose_id": "SI-001",
+      "last_pose_id": "SI-064",
+      "cover_image_path": "assets/contact-sheets/SI-01.webp"
+    },
+    {
+      "category": "KN",
+      "category_zh": "跪姿",
+      "category_en": "Kneeling",
+      "pose_count": 64,
+      "page_count": 4,
+      "page_ids": [
+        "PAGE-12",
+        "PAGE-13",
+        "PAGE-14",
+        "PAGE-15"
+      ],
+      "first_pose_id": "KN-001",
+      "last_pose_id": "KN-064",
+      "cover_image_path": "assets/contact-sheets/KN-01.webp"
+    },
+    {
+      "category": "SQ",
+      "category_zh": "蹲姿",
+      "category_en": "Squatting",
+      "pose_count": 48,
+      "page_count": 3,
+      "page_ids": [
+        "PAGE-16",
+        "PAGE-17",
+        "PAGE-18"
+      ],
+      "first_pose_id": "SQ-001",
+      "last_pose_id": "SQ-048",
+      "cover_image_path": "assets/contact-sheets/SQ-01.webp"
+    },
+    {
+      "category": "FL",
+      "category_zh": "地面",
+      "category_en": "Floor",
+      "pose_count": 64,
+      "page_count": 4,
+      "page_ids": [
+        "PAGE-19",
+        "PAGE-20",
+        "PAGE-21",
+        "PAGE-22"
+      ],
+      "first_pose_id": "FL-001",
+      "last_pose_id": "FL-064",
+      "cover_image_path": "assets/contact-sheets/FL-01.webp"
+    },
+    {
+      "category": "LE",
+      "category_zh": "倚靠",
+      "category_en": "Leaning",
+      "pose_count": 48,
+      "page_count": 3,
+      "page_ids": [
+        "PAGE-23",
+        "PAGE-24",
+        "PAGE-25"
+      ],
+      "first_pose_id": "LE-001",
+      "last_pose_id": "LE-048",
+      "cover_image_path": "assets/contact-sheets/LE-01.webp"
+    },
+    {
+      "category": "WK",
+      "category_zh": "行走",
+      "category_en": "Walking",
+      "pose_count": 32,
+      "page_count": 2,
+      "page_ids": [
+        "PAGE-26",
+        "PAGE-27"
+      ],
+      "first_pose_id": "WK-001",
+      "last_pose_id": "WK-032",
+      "cover_image_path": "assets/contact-sheets/WK-01.webp"
+    },
+    {
+      "category": "MV",
+      "category_zh": "动态",
+      "category_en": "Movement",
+      "pose_count": 48,
+      "page_count": 3,
+      "page_ids": [
+        "PAGE-28",
+        "PAGE-29",
+        "PAGE-30"
+      ],
+      "first_pose_id": "MV-001",
+      "last_pose_id": "MV-048",
+      "cover_image_path": "assets/contact-sheets/MV-01.webp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+version: 2
+items:
+- id: G-001
+  name_zh: 看镜头
+  key: camera
+- id: G-002
+  name_zh: 离镜
+  key: off_camera
+- id: G-003
+  name_zh: 向下
+  key: down
+- id: G-004
+  name_zh: 向上
+  key: up
+- id: G-005
+  name_zh: 看手/动作方向
+  key: action
+- id: G-006
+  name_zh: 闭眼/半闭眼
+  key: closed
+- id: G-007
+  name_zh: 沿身体延展方向
+  key: body_line
+- id: G-008
+  name_zh: 越过肩线回看
+  key: over_shoulder

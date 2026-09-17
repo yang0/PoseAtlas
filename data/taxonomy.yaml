@@ -1,0 +1,93 @@
+version: 2
+library_version: 0.2.0
+categories:
+- code: ST
+  name_zh: 站姿
+  name_en: Standing
+  target_count: 112
+  pages: 7
+- code: SI
+  name_zh: 坐姿
+  name_en: Sitting
+  target_count: 64
+  pages: 4
+- code: KN
+  name_zh: 跪姿
+  name_en: Kneeling
+  target_count: 64
+  pages: 4
+- code: SQ
+  name_zh: 蹲姿
+  name_en: Squatting
+  target_count: 48
+  pages: 3
+- code: FL
+  name_zh: 地面姿势
+  name_en: Floor
+  target_count: 64
+  pages: 4
+- code: LE
+  name_zh: 倚靠
+  name_en: Leaning
+  target_count: 48
+  pages: 3
+- code: WK
+  name_zh: 行走
+  name_en: Walking
+  target_count: 32
+  pages: 2
+- code: MV
+  name_zh: 动态动作
+  name_en: Movement
+  target_count: 48
+  pages: 3
+shapes:
+- key: S_CURVE
+  name_zh: S形曲线
+- key: C_CURVE
+  name_zh: 单向弧线
+- key: DIAGONAL
+  name_zh: 强对角线
+- key: TRIANGLE
+  name_zh: 三角结构
+- key: ARCH
+  name_zh: 后弓/胸腔打开
+- key: TWIST
+  name_zh: 胸胯反向扭转
+- key: OPEN
+  name_zh: 开放轮廓
+- key: COMPACT
+  name_zh: 收拢轮廓
+- key: VERTICAL
+  name_zh: 修长垂直线
+- key: FORWARD
+  name_zh: 向镜头延伸
+- key: HORIZONTAL
+  name_zh: 横向延展
+- key: ASYMMETRIC
+  name_zh: 非对称结构
+style_tags:
+- 自然
+- 松弛
+- 优雅
+- 时尚编辑
+- 力量感
+- 清冷
+- 柔和
+- 活泼
+- 戏剧化
+- 运动感
+difficulty:
+- easy
+- medium
+- hard
+intensity:
+- 1
+- 2
+- 3
+- 4
+- 5
+crop:
+- full_body
+- three_quarter
+- half_body

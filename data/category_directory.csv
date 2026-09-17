@@ -1,0 +1,9 @@
+﻿category,category_zh,category_en,pose_count,page_count,page_ids,first_pose_id,last_pose_id,cover_image_path
+ST,站姿,Standing,112,7,"['PAGE-01', 'PAGE-02', 'PAGE-03', 'PAGE-04', 'PAGE-05', 'PAGE-06', 'PAGE-07']",ST-001,ST-112,assets/contact-sheets/ST-01.webp
+SI,坐姿,Sitting,64,4,"['PAGE-08', 'PAGE-09', 'PAGE-10', 'PAGE-11']",SI-001,SI-064,assets/contact-sheets/SI-01.webp
+KN,跪姿,Kneeling,64,4,"['PAGE-12', 'PAGE-13', 'PAGE-14', 'PAGE-15']",KN-001,KN-064,assets/contact-sheets/KN-01.webp
+SQ,蹲姿,Squatting,48,3,"['PAGE-16', 'PAGE-17', 'PAGE-18']",SQ-001,SQ-048,assets/contact-sheets/SQ-01.webp
+FL,地面,Floor,64,4,"['PAGE-19', 'PAGE-20', 'PAGE-21', 'PAGE-22']",FL-001,FL-064,assets/contact-sheets/FL-01.webp
+LE,倚靠,Leaning,48,3,"['PAGE-23', 'PAGE-24', 'PAGE-25']",LE-001,LE-048,assets/contact-sheets/LE-01.webp
+WK,行走,Walking,32,2,"['PAGE-26', 'PAGE-27']",WK-001,WK-032,assets/contact-sheets/WK-01.webp
+MV,动态,Movement,48,3,"['PAGE-28', 'PAGE-29', 'PAGE-30']",MV-001,MV-048,assets/contact-sheets/MV-01.webp
